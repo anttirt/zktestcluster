@@ -1,5 +1,9 @@
 #!/bin/bash -e
 
+# swiped from
+# https://gist.github.com/ndpar/5105486
+# http://ndpar.blogspot.com/2013/03/simple-zookeeper-cluster.html
+
 echo Set up zookeeper cluster
 
 cd /opt/zookeeper/zookeeper
