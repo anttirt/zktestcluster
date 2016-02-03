@@ -20,5 +20,11 @@ vagrant provision
 vagrant ssh -c '//vagrant/restart-node.sh 2'
 ```
 
+### Restart the leader, forcing a leader re-election:
+
+```bash
+vagrant ssh -c //vagrant/restart-leader.sh
+```
+
 Instances are on ports 2181, 2182, 2183
 
